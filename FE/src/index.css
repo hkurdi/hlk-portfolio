@@ -1,0 +1,475 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  transform-origin: bottom;
+  /* z-index: 0.6; */
+}
+
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  transform-origin: top;
+  /* z-index: 0.6; */
+}
+
+.jomhuria-regular {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sedan-regular {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+  font: bold;
+}
+
+.sedan-regular-italic {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.my {
+  vertical-align: super;
+}
+.cool {
+  writing-mode: vertical-rl;
+  font-size: 3rem; /* Adjust the font size as needed */
+  color: #e1e1e1; /* Change the color to a vibrant one */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add a subtle text shadow */
+  font-family: "Arial", sans-serif; /* Use a stylish font */
+  letter-spacing: 2px; /* Add some letter spacing for emphasis */
+  padding: 5px; /* Add some padding for breathing space */
+  border: 2px solid #6babff; /* Add a border for emphasis */
+  border-radius: 5px; /* Round the corners */
+  transition: transform 0.5s ease-in-out, color 0.5s ease-in-out,
+    scale 0.5s ease-in-out;
+}
+
+.cool:hover {
+  transform: rotateX(10deg) rotateY(10deg) scale(1.1); /* Apply 3D tilt effect on hover */
+  color: #ffa726; /* Change the color on hover */
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6); /* Add a subtle shadow effect on hover */
+  animation: pulsate 1s infinite alternate; /* Add pulsating effect on hover */
+}
+
+.grid-section {
+  z-index: -1;
+}
+
+.content-container {
+  position: relative;
+  z-index: 1; /* Set a higher z-index to ensure it appears above the grid */
+}
+
+@keyframes pulsate {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.socials {
+  display: inline-block;
+}
+
+.welcome {
+  z-index: 1;
+}
+
+.social-icon-linkedin {
+  position: absolute;
+  align-self: flex-end;
+  display: flexbox;
+  margin-top: 3cm;
+  transform: translateY(-12px);
+  opacity: 70%;
+  width: 25px;
+  height: 25px;
+}
+
+.social-icon-github {
+  align-self: flex-end;
+  display: flexbox;
+  margin-top: 3cm;
+  transform: translateY(-182px) translateX(-9.5px);
+  opacity: 67%;
+  width: 45px;
+  height: 25.8px;
+}
+
+.desc {
+  display: flex;
+  inline-size: 340px;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  transform: translateX(270px) translateY(-169px);
+}
+
+.desc-container {
+  justify-content: center;
+  text-align: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 100%; /* Make sure the container takes up the full height */
+  font-size: medium;
+}
+
+.socialHover {
+  filter: drop-shadow(
+    0 0 10px rgba(255, 255, 255, 0.8)
+  ); /* Apply a glow effect */
+  animation: shimmerGlow 1.2s ease-in-out infinite alternate; /* Apply shimmer and glow animation */
+}
+
+@keyframes shimmerGlow {
+  0% {
+    filter: drop-shadow(
+      0 0 3.5px rgba(255, 255, 255, 0.8)
+    ); /* Initial glow effect */
+  }
+  50% {
+    filter: drop-shadow(
+      0 0 1px rgba(255, 255, 255, 0.8)
+    ); /* Intermediate glow effect */
+  }
+  100% {
+    filter: drop-shadow(
+      0 0 3.5px rgba(255, 255, 255, 0.8)
+    ); /* Final glow effect */
+  }
+}
+
+.grid-cols-20 {
+  display: grid;
+  grid-template-columns: repeat(20, minmax(0, 1fr)); /* Defines 20 columns */
+}
+
+.button-z {
+  z-index: 2;
+}
+
+.homeNav {
+  display: flex;
+}
+
+.homeNav button {
+  margin: -10px 65px;
+  color: gray;
+}
+.homeNav button:hover {
+  color: white;
+  transition: ease-in-out;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade-up-contact {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(0.9);
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+}
+
+.fade-up {
+  animation: fade-up 1.1s ease-in-out;
+}
+
+.fade-up-contact {
+  animation: fade-up-contact 1.1s ease-in-out;
+}
+
+.fade-out {
+  animation: fade-out 0.8s ease-in-out;
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.fade-down {
+  animation: fade-down 1.47s ease-in-out;
+}
+
+@keyframes animate-pulsate {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-pulsate {
+  animation: animate-pulsate 1.5s infinite alternate ease-in-out;
+}
+
+.circle-display {
+  display: none;
+}
+.blur-max {
+  filter: blur(72px);
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.z-05 {
+  z-index: 0.5;
+}
+
+#progressBar {
+  height: 4px;
+  transition: width 0.5s ease-in-out; /* Smooth transition effect */
+}
+
+#progressFill {
+  height: 100%;
+  background-color: #fff; /* Adjust the color as needed */
+}
+
+.display-none {
+  display: none;
+}
+
+.z-05 {
+  z-index: 0.5;
+}
+.resume-button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 180px !important;
+  height: 1px !important; /* Adjust width as needed */
+  position: relative;
+  display: flex;
+  flex: 1;
+  border-radius: 25px; /* Increase border-radius for rounded corners */
+  background-color: #fff; /* Green background color */
+  color: rgb(0, 0, 0); /* White text color */
+  font-size: 18px; /* Adjust font size as needed */
+  font-weight: bold; /* Add bold font weight */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.ml-15 {
+  margin-left: 52px;
+}
+
+.ml-46 {
+  margin-left: 11.96rem;
+}
+
+.resume-button:hover {
+  background-color: gray; /* Darker green on hover */
+}
+
+/* about */
+
+.block-container {
+  position: relative;
+  transition: 250ms;
+  perspective: 500px;
+}
+
+.block-container .btn-front {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: inherit;
+  height: inherit;
+  background-color: rgb(17 24 39);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  transition: 250ms;
+  transform-style: preserve-3d;
+  transform-origin: top left;
+  overflow: hidden;
+}
+
+.block-container:hover > .btn-front {
+  transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease-in-out; /* Apply transition to both image and text */
+}
+
+.image {
+  position: absolute;
+  opacity: 1; /* Initially, image is visible */
+  transition: opacity 0.3s ease-in-out; /* Apply transition to both image and text */
+}
+
+.text-type {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  margin-top: 4.5rem;
+  font-size: 0.7rem; /* Adjust the font size as needed */
+  top: 0;
+  left: 50%; /* Adjusted */
+  transform: translateX(-50%); /* Center horizontally */
+  white-space: nowrap;
+  align-items: center;
+}
+
+.text {
+  opacity: 0; /* Initially, text is hidden */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.block-container:hover > .btn-front {
+  transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
+}
+
+.block-container:hover > .btn-front .image {
+  opacity: 0; /* On hover, image disappears */
+}
+
+.block-container:hover > .btn-front .text {
+  opacity: 1; /* On hover, text fades in */
+}
+
+.block-container:hover > .btn-front .text-type {
+  opacity: 1; /* On hover, text fades in */
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-container > span {
+  display: block;
+}
+
+.scrollsection.snap-enabled {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+html {
+  /* scroll-snap-type: y mandatory; */
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.zoomedOut {
+  transform: scale(94%);
+  margin-top: -45px;
+}
+
+@keyframes waves {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 50%,
+      10% 60%,
+      20% 50%,
+      30% 40%,
+      40% 50%,
+      50% 60%,
+      60% 50%,
+      70% 40%,
+      80% 50%,
+      90% 60%,
+      100% 50%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0% 40%,
+      10% 50%,
+      20% 60%,
+      30% 50%,
+      40% 40%,
+      50% 50%,
+      60% 60%,
+      70% 50%,
+      80% 40%,
+      90% 50%,
+      100% 60%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+.secondPart {
+  color: #6babff;
+  animation: waves 2s ease-in-out infinite alternate-reverse;
+}

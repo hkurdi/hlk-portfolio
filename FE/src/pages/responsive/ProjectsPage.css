@@ -1,0 +1,101 @@
+
+
+
+@media only screen and (max-width: 600px) {
+    #projects, #projectsText {
+        align-items: center;
+        grid: 100%;
+        zoom: 49%;
+    }
+    #projectsText {
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+    
+    #projectsDesc {
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (width: 360px) and (height: 740px) {
+
+    #projects, #projectsText {
+        align-items: center;
+        grid: 100%;
+        zoom: 49%;
+    }
+    #projectsText {
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+    
+    #projectsDesc {
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (width: 393px) and (height: 786px) {
+    #projects, #projectsText {
+        align-items: center;
+        grid: 100%;
+        zoom: 49%;
+    }
+    #projectsText {
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+    
+    #projectsDesc {
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (width: 1024px) and (height: 800px) {
+    #projects, #projectsText {
+        align-items: center;
+        grid: 100%;
+        zoom: 49%;
+    }
+    #projectsText {
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+    
+    #projectsDesc {
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (width: 688px) and (height: 1031px) {
+    #projects, #projectsText {
+        align-items: center;
+        grid: 100%;
+        zoom: 49%;
+    }
+    #projectsText {
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+    
+    #projectsDesc {
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+}
+

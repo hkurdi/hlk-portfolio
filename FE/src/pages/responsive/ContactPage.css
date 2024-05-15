@@ -1,0 +1,91 @@
+.contact {
+    height: 100%;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+  }
+  
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  
+    h1 {
+      font-size: 100px;
+      line-height: 88px;
+    }
+  }
+  
+  .span {
+    font-weight: 300;
+  }
+  
+  .formContainer {
+    flex: 1;
+    position: relative;
+  
+    .phoneSVG {
+      stroke: #FFA726;
+      position: absolute;
+      margin: auto;
+  }
+  
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+  
+  
+      input,
+      textarea {
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
+      }
+    }
+  }
+  
+  .glow {
+      filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.7)); 
+    }
+
+
+@media only screen and (max-width: 600px) {
+    #contact {
+        zoom: 40%;
+    }
+}
+
+@media only screen and (width: 360px) and (height: 740px) {
+    #contact {
+        zoom: 37.7%;
+    }
+}
+
+@media only screen and (width: 375px) and (height: 667px) {
+  #contact {
+    zoom: 50%;
+   }
+   #msg {
+    margin-left: -17px;
+    margin-top: 140px;
+    zoom: 93%;
+   }
+}
+
+@media only screen and (width: 1024px) and (height: 800px) {
+ 
+}
+
+/* @media only screen and (width: 688px) and (height: 1031px) {
+ #contact {
+  zoom: 71%
+ }
+} */

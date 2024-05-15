@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+  #swe-text {
+    font-size: 6.55rem;
+    margin-left: -1.8rem;
+  }
+
+  #entre-text {
+    font-size: 6.55rem;
+    margin-left: -1.8rem;
+  }
+
+  #creative-text {
+    font-size: 6.75rem;
+    margin-left: -1.8rem;
+  }
+
+  #greetings {
+    zoom: 54%;
+  }
+
+  #socials {
+    zoom: 54%;
+  }
+
+  #home-nav {
+    margin-bottom: 40vh;
+  }
+
+  #tile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 360px) {
+  #swe-text {
+    font-size: 6.55rem;
+    margin-left: -1.8rem;
+  }
+
+  #entre-text {
+    font-size: 6.55rem;
+    margin-left: -1.8rem;
+  }
+
+  #creative-text {
+    font-size: 6.75rem;
+    margin-left: -1.8rem;
+  }
+
+  #greetings {
+    zoom: 48%;
+  }
+
+  #socials {
+    zoom: 48%;
+  }
+
+  #home-nav {
+    margin-bottom: 40vh;
+  }
+
+  #tile {
+    display: none;
+  }
+}
+
+@media only screen and (width: 688px) and (height: 1031px) {
+  #home-nav {
+    margin-bottom: 12vh;
+  }
+  #greetings {
+    zoom: 98%;
+  }
+
+  #socials {
+    zoom: 98%;
+  }
+}
+
+@media only screen and (width: 342px) and (height: 755px) {
+  #greetings {
+    zoom: 48%;
+  }
+
+  #socials {
+    zoom: 48%;
+  }
+}

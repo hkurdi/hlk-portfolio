@@ -1,0 +1,13 @@
+.custom-popup-class {
+    background-color: #fff;
+    border-radius: 10px; 
+  }
+  
+  .custom-title-class {
+    color: #000000; 
+    font-family: sans-serif;
+  }
+  
+  .custom-content-class {
+    color: #333;
+  }

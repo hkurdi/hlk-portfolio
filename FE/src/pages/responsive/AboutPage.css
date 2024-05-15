@@ -1,0 +1,80 @@
+
+
+
+@media only screen and (max-width: 600px) {
+    #about {
+        z-index: 0;
+        padding-top: 70px;
+        zoom: 60%;
+    }
+    #profilepic {
+        max-width: 28rem;
+        padding-top: 10px;
+    }
+
+    #icons {
+        /* width: 3rem;
+        height: 3rem; */
+        zoom: 37%;
+        padding-bottom: -30px;
+    }
+}
+
+@media only screen and (width: 375px) and (max-width: 667px) {
+    #about {
+        z-index: 0;
+        padding-top: 80px;
+        zoom: 59%;
+    }
+    #profilepic {
+        max-width: 22rem;
+        padding-top: 1px;
+    }
+
+    #icons {
+        width: 5.4rem;
+        height: 5.4rem;
+        /* padding-top: 600px;
+        zoom: 30%; */
+    }
+    #icons-container {
+        margin-top: 27px;
+    }
+}
+
+@media only screen and (width: 360px) and (height: 740px) {
+    #about {
+        z-index: 0;
+        padding-top: 80px;
+        zoom: 59%;
+    }
+    #profilepic {
+        max-width: 22rem;
+        padding-top: 1px;
+    }
+
+    #icons {
+        width: 5.3rem;
+        height: 5.3rem;
+        /* padding-top: 600px;
+        zoom: 30%; */
+    } 
+}
+
+@media only screen and (width: 393px) and (height: 786px) {
+    #icons-container {
+        margin-top: 31px;
+    }
+}
+
+@media only screen and (width: 1024px) and (height: 800px) {
+    #icons-container {
+        zoom: 85%;
+    }
+}
+
+@media only screen and (width: 688px) and (height: 1031px) {
+    #icons-container {
+        zoom: 89%;
+    }
+}

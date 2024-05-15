@@ -9,7 +9,7 @@ import "../pages/responsive/ContactPage.css";
 
 export const ContactForm = () => {
   const api = axios.create({
-    baseURL: "http://localhost:3001",
+    baseURL: "https://hlk-portfolio-server-side.onrender.com/",
   });
 
   const regex = /^[\w\.-]+@[\w\.-]+\.\w+$/;

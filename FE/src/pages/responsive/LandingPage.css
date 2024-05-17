@@ -88,7 +88,7 @@
 }
 @media only screen and (width: 354px) and (height: 844px) {
   #home-nav {
-    margin-bottom: -55px;
+    margin-bottom: 55vh;
   }
   #greetings {
     zoom: 20%;

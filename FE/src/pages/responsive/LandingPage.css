@@ -86,7 +86,7 @@
     zoom: 48%;
   }
 }
-/* @media only screen and (width: 354px) and (height: 844px) {
+@media only screen and (width: 354px) and (height: 844px) {
   #home-nav {
     margin-bottom: 55vh;
   }
@@ -97,9 +97,9 @@
   #socials {
     zoom: 20%;
   }
-} */
+}
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   #greetings {
     zoom: 48%;
   }
@@ -107,4 +107,4 @@
   #socials {
     zoom: 48%;
   }
-}
+} */

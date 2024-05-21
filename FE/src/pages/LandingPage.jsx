@@ -83,7 +83,7 @@ const LandingPage = () => {
         <Socials />
         <h1
           id="greetings"
-          className="text-9xl font-bold text-pretty text-gray-50 select-none welcome"
+          className="greetings text-9xl font-bold text-pretty text-gray-50 select-none welcome"
         >
           welcome
           <span className="text-7xl italic text-orange-400"> to</span>
@@ -102,7 +102,7 @@ const LandingPage = () => {
               <span className="creative"> multidisciplinary creative. </span>
             </span>
           </div>
-          <div id="home-nav" className="absolute bottom-56 z-0 homeNav">
+          <div id="home-nav" className="absolute bottom-56 z-0 homeNav home-nav">
             <button onClick={handleAbout} className="text-xl sedan-regular">
               {" "}
               about{" "}

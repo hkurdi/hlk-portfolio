@@ -14,15 +14,15 @@
     margin-left: -1.8rem;
   }
 
-  .greetings {
+  #greetings {
     zoom: 54%;
   }
 
-  .socials {
+  #socials {
     zoom: 54%;
   }
 
-  .home-nav {
+  #home-nav {
     margin-bottom: 40vh;
   }
 
@@ -47,15 +47,15 @@
     margin-left: -1.8rem;
   }
 
-  .greetings {
+  #greetings {
     zoom: 48%;
   }
 
-  .socials {
+  #socials {
     zoom: 48%;
   }
 
-  .home-nav {
+  #home-nav {
     margin-bottom: 40vh;
   }
 
@@ -65,43 +65,44 @@
 }
 
 @media only screen and (width: 688px) and (height: 1031px) {
-  .home-nav {
+  #home-nav {
     margin-bottom: 12vh;
   }
-  .greetings {
+  #greetings {
     zoom: 98%;
   }
 
-  .socials {
+  #socials {
     zoom: 98%;
   }
 }
 
 @media only screen and (width: 342px) and (height: 755px) {
-  .greetings {
+  #greetings {
     zoom: 48%;
   }
 
-  .socials {
+  #socials {
     zoom: 48%;
   }
 }
 @media only screen and (width: 354px) and (height: 844px) {
-  .home-nav {
+  #home-nav {
     margin-bottom: 55vh;
   }
-  .greetings {
+  #greetings {
     zoom: 20%;
   }
 
-  .socials {
+  #socials {
     zoom: 20%;
   }
 }
 
 
 @media (max-width: 900px) {
-  .greetings {
-    zoom: 48%;
+  #greetings,
+  #socials {
+    transform: scale(0.48);
   }
 }

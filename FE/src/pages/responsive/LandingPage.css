@@ -91,7 +91,7 @@
     margin-bottom: 55vh;
   }
   #greetings {
-    zoom: 20%;
+    display: none;
   }
 
   #socials {

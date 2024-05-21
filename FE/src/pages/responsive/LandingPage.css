@@ -91,7 +91,7 @@
     margin-bottom: 55vh;
   }
   #greetings {
-    display: none;
+    zoom: 20%;
   }
 
   #socials {
@@ -99,12 +99,8 @@
   }
 }
 
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
   #greetings {
-    zoom: 48%;
+    display: none;
   }
-
-  #socials {
-    zoom: 48%;
-  }
-} */
+}

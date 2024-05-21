@@ -99,3 +99,9 @@
   }
 }
 
+
+@media (max-width: 900px) {
+  #greetings {
+    zoom: 48%;
+  }
+}

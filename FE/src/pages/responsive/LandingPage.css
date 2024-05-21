@@ -101,10 +101,10 @@
 
 @media (max-width: 900px) {
   #greetings {
-    zoom: 48%;
+    zoom: 28%;
   }
 
   #socials {
-    zoom: 48%;
+    zoom: 28%;
   }
 }

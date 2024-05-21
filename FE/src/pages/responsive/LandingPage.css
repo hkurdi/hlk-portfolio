@@ -101,7 +101,7 @@
 
 
 @media (max-width: 900px) {
-  #greetings {
+  .greetings {
     zoom: 48%;
   }
 }

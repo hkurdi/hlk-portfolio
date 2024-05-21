@@ -481,9 +481,3 @@ html {
   color: #6babff;
   animation: waves 2s ease-in-out infinite alternate-reverse;
 }
-
-@media (max-width: 900px) {
-  #greetings {
-    display: none;
-  }
-}

@@ -100,7 +100,7 @@
 }
 
 @media (max-width: 900px) {
-  #greetings {
+  .greetings {
     display: none;
   }
 }

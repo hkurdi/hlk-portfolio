@@ -36,10 +36,7 @@ const MobilePage = () => {
         <h1 className="font-bold font-sans text-pretty text-white mb-4 text-lg md:text-xl">
           Note:{" "}
           <span className="font-normal text-base md:text-lg text-gray-100">
-            You are using a small screen / mobile, and my website requires a
-            large screen to really enjoy it to the maximum, thus I limited
-            mobile to either using it with 50% zoom on your respected browser,
-            or just use a laptop, thanks.
+          You are using a small screen / mobile, and my website requires a large screen to really enjoy the full experience. Yes, I know this is supposed to serve as a portfolio website, but I believe in creating immense and immersive experiences that can't be captured on a handheld device. I like my work to feel human and alive, and that just doesn't translate to a smaller screen. Besides, at the end of the day, I'm the one coding this masterpiece and footing the bill for the domain, so I make the rules, right? Lol.
             <br /> yours truly, <br />
           </span>
           HLK

@@ -26,11 +26,8 @@ const MobilePage = () => {
 
   return (
     <div className="flex flex-col bg-gray-950 w-screen h-screen overflow-hidden select-none">
-      <div className="flex flex-col items-center justify-center text-center w-full h-full p-4 ">
-        <h1 className="font-sans  text-white">
-          {" "}
-          hamza luay kurdi.
-        </h1>{" "}
+      <div className="flex flex-col items-center justify-center text-center w-full h-full p-4">
+        <h1 className="font-sans  text-white"> hamza luay kurdi.</h1>{" "}
         <span className="font-thin text-gray-300 text-xs tracking-wide">
           software engineer, entrepreneur, & multidisciplinary creative.
         </span>

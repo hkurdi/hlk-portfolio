@@ -25,7 +25,7 @@ const MobilePage = () => {
   };
 
   return (
-    <div className="flex flex-col bg-gray-950 w-screen h-screen">
+    <div className="flex flex-col bg-gray-950 w-screen h-screen overflow-hidden">
       <div className="flex flex-col items-center justify-center text-center w-full h-full p-4">
         <h1 className="font-sans  text-white">
           {" "}

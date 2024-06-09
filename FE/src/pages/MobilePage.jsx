@@ -31,7 +31,7 @@ const MobilePage = () => {
           Hamza Luay Kurdi
         </h1>
         <span className="font-thin text-gray-300 text-xs tracking-wide mb-4 md:text-sm">
-          Software engineer, entrepreneur, & multidisciplinary creative.
+          software engineer, entrepreneur, & multidisciplinary creative.
         </span>
         <h1 className="font-bold font-sans text-pretty text-white mb-4 text-lg md:text-xl">
           Note:{" "}

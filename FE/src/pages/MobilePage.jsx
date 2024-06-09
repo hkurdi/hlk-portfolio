@@ -28,7 +28,7 @@ const MobilePage = () => {
     <div className="flex flex-col bg-gray-950 w-screen h-screen overflow-hidden select-none">
       <div className="flex flex-col items-center justify-center text-center w-full h-full p-4">
         <h1 className="font-sans text-white text-2xl md:text-3xl">
-          Hamza Luay Kurdi
+          hamza luay kurdi.
         </h1>
         <span className="font-thin text-gray-300 text-xs tracking-wide mb-4 md:text-sm">
           software engineer, entrepreneur, & multidisciplinary creative.

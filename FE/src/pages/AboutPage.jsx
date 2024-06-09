@@ -11,6 +11,7 @@ import ProfilePicture from "../assets/about.jpg";
 
 import { HLKButton } from "../components/HLKButton";
 import { Circle } from "../components/Circle";
+import { ProgressBar } from "../components/ProgressBar";
 import { skills, experiences } from "../constants";
 
 import "./responsive/AboutPage.css";
@@ -52,7 +53,7 @@ const AboutPage = () => {
     const handleScroll = () => {
       const currentScrollPosition = window.scrollY;
       lastScrollTopRef.current = currentScrollPosition;
-    
+
       const getDistanceFromTop = (ref) =>
         ref.current
           ? Math.abs(ref.current.offsetTop - window.scrollY)
@@ -60,7 +61,7 @@ const AboutPage = () => {
       const topDistance = getDistanceFromTop(topRef);
       const middleDistance = getDistanceFromTop(middleRef);
       const endDistance = getDistanceFromTop(endRef);
-    
+
       const closestRef = (() => {
         if (topDistance < middleDistance && topDistance < endDistance)
           return topRef;
@@ -68,7 +69,7 @@ const AboutPage = () => {
           return middleRef;
         else return endRef;
       })();
-    
+
       const isInView =
         closestRef.current.offsetTop >= window.scrollY &&
         closestRef.current.offsetTop + closestRef.current.offsetHeight <=
@@ -76,12 +77,13 @@ const AboutPage = () => {
       const hasScrolledAwayFromEndRef =
         endRef.current &&
         window.scrollY < endRef.current.offsetTop - window.innerHeight;
-    
+
       const isBelowEndRef =
         endRef.current && window.scrollY > endRef.current.offsetTop;
-    
-      if (hasScrolledAwayFromEndRef || isBelowEndRef) setHasSnappedToEndRef(false);
-    
+
+      if (hasScrolledAwayFromEndRef || isBelowEndRef)
+        setHasSnappedToEndRef(false);
+
       if (
         !hasSnappedToEndRef &&
         closestRef.current === endRef.current &&
@@ -95,7 +97,7 @@ const AboutPage = () => {
       } else if (!isInView && closestRef.current !== endRef.current) {
         closestRef.current.scrollIntoView({ behavior: "smooth" });
       }
-    
+
       setSnapSettings(
         !(
           closestRef.current === endRef.current &&
@@ -120,10 +122,10 @@ const AboutPage = () => {
       document.body.style.overflowY = "auto"; // Re-enable vertical scrolling when unmounting
     };
   }, []);
-  
 
   return (
     <div className="snap-y snap-mandatory relative bg-gray-950" id="aboutpage">
+      <ProgressBar />
       <div
         ref={topRef}
         className={`bg-gray-950 h-screen flex justify-center items-center select-none scrollsection ${

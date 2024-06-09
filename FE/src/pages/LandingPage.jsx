@@ -57,7 +57,7 @@ const LandingPage = () => {
   });
 
   return (
-    <div className="relative" ref={comp}>
+    <div className="relative sm:display-none" ref={comp}>
       <section className="absolute inset-0 z-0 w-full grid grid-cols-20 overflow-y-clip ">
         {Array.from(Array(20 * 12), (i) => (
           <Tile key={i} />

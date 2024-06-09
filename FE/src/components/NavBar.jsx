@@ -56,7 +56,7 @@ const NavBar = () => {
     const projects = document.getElementById("projects");
 
 
-    if (location.pathname === "/") {
+    if (location.pathname === "/" || location.pathname === "/mobile") {
       setIsMenuOpen(false);
       nav.classList.add("hidden");
       nav.style.pointerEvents = "none";

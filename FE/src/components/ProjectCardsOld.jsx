@@ -21,7 +21,7 @@ export const ProjectCards = () => {
   }, []);
 
   return (
-    <div className="opacity-0 z-05 pb-6 mt-8" id="projects">
+    <div className="app__work-portfolio opacity-0 z-05 pb-6" id="projects">
     <Swiper
       effect={"coverflow"}
       grabCursor={true}
@@ -30,13 +30,13 @@ export const ProjectCards = () => {
       coverflowEffect={{
         rotate: 50,
         stretch: 0,
-        depth: 0,
+        depth: 100,
         modifier: 1,
         slideShadows: true,
       }}
       pagination={{
         clickable: true,
-        // dynamicBullets: true,
+        dynamicBullets: true,
       }}
       navigation={true}
       modules={[EffectCoverflow, Pagination, Navigation]}

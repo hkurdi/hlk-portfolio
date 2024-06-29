@@ -29,6 +29,7 @@
     "scroll-snap": "^4.0.5",
     "split-type": "^0.2.1",
     "sweetalert2": "^11.10.8",
+    "swiper": "^11.1.4",
     "vite-plugin-restart": "^0.4.0"
   },
   "devDependencies": {

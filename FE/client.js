@@ -7,6 +7,7 @@ export const client = createClient({
   dataset: 'production',
   useCdn: true, 
   token: import.meta.VITE_SANITY_TOKEN, 
+  apiVersion: '2021-08-31',
 });
 
 const builder = imageUrlBuilder(client);

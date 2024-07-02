@@ -21,7 +21,7 @@ export const ProjectCards = () => {
   }, []);
 
   return (
-    <div className="opacity-0 z-05 pb-6 mt-8" id="projects">
+    <div className="opacity-0 z-05 pb-6 mt-8">
     <Swiper
       effect={"coverflow"}
       grabCursor={true}

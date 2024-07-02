@@ -34,7 +34,9 @@ const ProjectsPage = () => {
 </div>
 
         <Circle />
+        <div id="projects">
         <ProjectCards />
+        </div>
       </div>
     </div>
   );

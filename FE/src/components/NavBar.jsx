@@ -86,9 +86,9 @@ const NavBar = () => {
       }
       if (projects) {
         if(location.pathname === "/") {
-         projects.classList.add("opacity-0");
+         projects.classList.add("opacity-50");
         } else {
-         projects.classList.remove("opacity-0");
+         projects.classList.remove("opacity-50");
         }
       }
     }

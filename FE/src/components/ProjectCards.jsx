@@ -21,7 +21,7 @@ export const ProjectCards = () => {
   }, []);
 
   return (
-    <div className="opacity-0 z-05 pb-6 mt-8">
+    <div className="opacity-0 z-05 pb-6 mt-8" id="projects">
     <Swiper
       effect={"coverflow"}
       grabCursor={true}
@@ -40,7 +40,7 @@ export const ProjectCards = () => {
       }}
       navigation={true}
       modules={[EffectCoverflow, Pagination, Navigation]}
-      className="mySwiper"
+      className="mySwiper z-0"
     >
       {works.map((work, index) => (
         <SwiperSlide key={index}>

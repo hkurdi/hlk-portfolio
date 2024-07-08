@@ -54,8 +54,10 @@ const NavBar = () => {
     const resumeButton = document.getElementById("resumebutton");
     const about = document.getElementById("about");
     const projects = document.getElementById("projects");
-
-
+    const seaText = document.getElementById("sea-text");
+    if(!location === "/about") {
+      seaText.classList.add("hidden")
+    }
     if (location.pathname === "/" || location.pathname === "/mobile") {
       setIsMenuOpen(false);
       nav.classList.add("hidden");
@@ -92,7 +94,7 @@ const NavBar = () => {
         }
       }
     }
-    console.log(location.pathname);
+    // console.log(location.pathname);
   }, [location]);
 
   useGSAP(

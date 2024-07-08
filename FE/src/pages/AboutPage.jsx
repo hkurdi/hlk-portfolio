@@ -181,12 +181,14 @@ const AboutPage = () => {
                   together.
                 </span>
               </h3>
-              <h3 className="secondPart absolute mt-6 text-xl font-light text-gray-50 text-pretty whitespace-nowrap">
+              <div id="sea-text">
+              <h3 className="secondPart absolute mt-6 text-xl font-light text-gray-50 text-pretty whitespace-nowrap z-0">
                 Let's explore the endless sea of possibilities
               </h3>
-              <h3 className="opacity-10 absolute mt-6 text-xl font-light text-#6babff text-pretty whitespace-nowrap">
+              <h3 className="opacity-10 absolute mt-6 text-xl font-light text-#6babff text-pretty whitespace-nowrap -z-10">
                 Let's explore the endless sea of possibilities
               </h3>
+              </div>
             </section>
             <div className="flex flex-col items-center">
               <img
